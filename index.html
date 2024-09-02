@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .weather-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button id="getWeatherBtn">Get Weather</button>
+    <div class="weather-info" id="weatherInfo"></div>
+
+    <!-- Ensure the script is loaded after the body content -->
+    <script src="Promise.js"></script>
+</body>
+</html>
